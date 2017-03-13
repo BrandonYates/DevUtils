@@ -41,9 +41,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DevUtils.cs" />
-    <Compile Include="PrivateWebUtility.cs" />
+    <Compile Include="PrivateWebUtilityImpl.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="PublicWebUtilities.cs" />
+    <Compile Include="PublicWebUtilityImpl.cs" />
     <Compile Include="Utility.cs" />
     <Compile Include="UtilType.cs" />
     <Compile Include="WebUtility.cs" />

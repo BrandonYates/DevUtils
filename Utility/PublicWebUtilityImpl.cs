@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace Utility
 {
-    public class PrivateWebUtility : WebUtility
+    public class PublicWebUtilityImpl : WebUtility
     {
         public String Type()
         {
-            UtilType type = UtilType.PRIVATE | UtilType.WEB | UtilType.SECURE;
+            UtilType type = UtilType.PUBLIC | UtilType.WEB | UtilType.UNSECURE;
             return type.ToString();
         }
 
@@ -26,7 +26,7 @@ namespace Utility
 
         public String Author()
         {
-            return "Brandon J. Yates";
+            return "Brandon Yates";
         }
 
         public String GetCurrentShortDate()
@@ -61,24 +61,22 @@ namespace Utility
             var epoch = new DateTime(1970, 1, 1, 0, 0, 0, DateTimeKind.Utc);
             var dateTime = DateTime.Parse(dateString).ToUniversalTime();
 
-            dateTime.Subtract(epoch);
-
             return (long)dateTime.Subtract(epoch).TotalMilliseconds;
         }
 
         public String ToMD5(String code)
         {
-            return "Secure operations coming soon.";
+            return "Secure operations are not supported by this platform.";
         }
 
         public String ToSHA1(String code)
         {
-            return "Secure operations coming soon..";
+            return "Secure operations are not supported by this platform.";
         }
 
         public String ToRSA(String code)
         {
-            return "Secure operations coming soon.";
+            return "Secure operations are not supported by this platform.";
         }
     }
 }
