@@ -3,11 +3,24 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "DevUtils", "DevUtils\DevUtils.shproj", "{D88F9DB4-4C3E-4146-BFC1-41BF940FC93A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DevUtils", "Utility\DevUtils.csproj", "{1E457E07-407F-4AF5-AA20-0C4B5DAEEE21}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UtilityTests", "UtilityTests\UtilityTests.csproj", "{72D8ADDC-9DF3-4A9B-BC6B-5C9334011E3C}"
 EndProject
 Global
-	GlobalSection(SharedMSBuildProjectFiles) = preSolution
-		DevUtils\DevUtils.projitems*{d88f9db4-4c3e-4146-bfc1-41bf940fc93a}*SharedItemsImports = 13
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1E457E07-407F-4AF5-AA20-0C4B5DAEEE21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E457E07-407F-4AF5-AA20-0C4B5DAEEE21}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E457E07-407F-4AF5-AA20-0C4B5DAEEE21}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E457E07-407F-4AF5-AA20-0C4B5DAEEE21}.Release|Any CPU.Build.0 = Release|Any CPU
+		{72D8ADDC-9DF3-4A9B-BC6B-5C9334011E3C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72D8ADDC-9DF3-4A9B-BC6B-5C9334011E3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72D8ADDC-9DF3-4A9B-BC6B-5C9334011E3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72D8ADDC-9DF3-4A9B-BC6B-5C9334011E3C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
